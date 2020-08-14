@@ -1,0 +1,30 @@
+.adress {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    @media (max-width: 991px) {
+        flex: 0 0 100%;
+    }
+    // .adress__col
+
+    &__col {
+        flex: 0 0 100%;
+        @media (max-width: 991px) {
+            flex: 0 0 50%;
+        }
+        @media (max-width: 754px) {
+            flex: 0 0 50%;
+        }
+        @media (max-width: 554px) {
+            flex: 0 0 100%;
+        }
+    }
+
+    // .adress__text
+
+    &__text {
+        font-size: 1.3em;
+        padding: 0;
+        margin: 0.5em 0;
+    }
+}

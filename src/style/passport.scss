@@ -1,0 +1,31 @@
+.passport {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+
+    // .passport__col
+
+    &__col {
+        flex: 0 0 30%;
+
+        @media (max-width: 991px) {
+            flex: 0 0 50%;
+        }
+        @media (max-width: 754px) {
+            flex: 0 0 50%;
+        }
+        @media (max-width: 554px) {
+            flex: 0 0 100%;
+        }
+    }
+
+    // .passport__text
+
+    &__text {
+        font-size: 1.3em;
+        padding: 0;
+        margin: 0.5em 0;
+    }
+}
